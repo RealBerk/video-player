@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="video">
+        <video id="video">
+            <source src="./video.mp4" type="video/mp4" >
+        </video>
+    </div>
+    <div class="oynatici">
+        <span class="material-icons-outlined" id="play">
+            play_circle
+        </span>
+        <span class="material-icons-outlined" id="stop">
+            pause
+        </span>
+        <span class="material-icons-outlined" id="fullscreen">
+            fullscreen
+        </span>
+    </div>
+
+    <br>
+
+    <br>
+    <br>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .oynatici span {
+            cursor: pointer;
+            user-select: none;
+        }
+        .oynatici {
+            margin-top: -5%;
+            margin-left: 25%;
+            padding: 10px 40px;
+            display: inline-block;
+            background: rgba(0, 0, 0, 0.144);
+            box-shadow: 0 0 4px 0 black;
+            position: absolute;
+        }
+
+        .ekran1519 {
+            width: 1519px;
+        }
+        .ekran1000 {
+            width: 1000px;
+        }
+    </style>
+
+    <script src="./js.js"></script>
+</body>
+</html>
